@@ -67,7 +67,7 @@ There are a few things to consider when selecting a model
 |   30B |         60 GB |                19.5 GB |
 |   65B |        120 GB |                38.5 GB |
 
-- if you are getting "can't open model from path" errors it is most likely an architecture issue and you might need to try a different model.
+- if you are getting `Could not load Llama *** (type=value_error)` errors it is most likely an architecture issue and you might need to try a different model.
 
 
 Finally, I have attached a Jupyter Notebook which shows how to load and run a model through `Langchain`.
